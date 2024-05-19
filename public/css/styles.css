@@ -31,9 +31,8 @@ body {
 
 .container-form {
     display: flex;
-    justify-content: space-between;
     margin: auto;
-    width: 70%;
+    width: 60%;
     height: 70%;
     background-image: url("../images/form.png");
     background-size: cover;
@@ -49,7 +48,6 @@ body {
     height: 70vh;
     flex-shrink: 0;
     font-family: 'Tan Nimbus', 'Chloe', sans-serif;
-    text-shadow: 04px 0px 04px #00000040;
 }
 
 .h1welcome {
@@ -65,34 +63,121 @@ body {
 
 .h2welcome {
     position: absolute;
-    top: 54%;
-    left: 42%;
+    top: 55%;
+    left: 44%;
     transform: translate(-40%, -30%);
     margin: 0;
     font-family: 'Chloe', 'TAN Nimbus', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     color: #E1C3FF;
     text-align: center;
 }
 
 .login-form {
-    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
     width: 60%;
-    height: 60vh;
-    flex-shrink: 0;
-    font-family: 'Sansita', sans-serif;
+    height: 100%;
 }
 
-h1{
+.h1form{
     position: absolute;
-    top: 18%;
-    left: 15%;
-    transform: translate(-40%, -30%);
-    margin: 0;
+    top: 34%;
+    left: 58%;
+    margin: 10px;
     font-family: 'Sansita', sans-serif;
     font-size: 35px;
     color: #E1C3FF;
     text-align: center;
+}
+
+form input[type="text"] {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 20%;
+    height: 25px;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Franklin Gothic", sans-serif;
+    border: solid 1px #cccccc;
+    border-radius: 12px;
+    background: transparent;
+}
+
+form input[type="password"] {
+    position: absolute;
+    font-family: "Franklin Gothic";
+    font-size: 13px;
+    top: 47%;
+    left: 50%; 
+    width: 20%;
+    height: 25px;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #cccccc;
+    border-radius: 12px;
+    background: transparent;
+}
+
+
+::placeholder {
+    color: #E1C3FF; 
+}
+
+a{
+    position: absolute;
+    top: 54%;
+    left: 65%;
+    color: #A5A1A8;
+    font-size: 14.5px;
+    text-decoration: none;
+    font-family: "Franklin Gothic";
+}
+
+a:hover{
+    color: #8F5BBD;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    top: 58%;
+    left: 50.5%;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background-color: #ccc;
+    border: 2px solid #8F5BBD;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #8F5BBD;
+    border: 2px solid #8F5BBD;
+}
+
+input[type="checkbox"]:checked::after {
+    content: '✔';
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 10px;
+}
+
+label[for="lembrar"] {
+    position: absolute;
+    font-family: "Franklin Gothic";
+    top: 58.5%;
+    left: 52%;
+    display: inline-block; /* Exibe o label em linha */
+    vertical-align: middle; /* Alinha verticalmente ao centro */
+    color: #E1C3FF; /* Cor do texto */
+    font-size: 14px; /* Tamanho da fonte */
 }
 
 /* botão trocar backrgound*/
