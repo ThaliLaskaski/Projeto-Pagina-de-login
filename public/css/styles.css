@@ -86,7 +86,7 @@ body {
 
 .h1form {
     position: absolute;
-    top: 34%;
+    top: 30%;
     left: 58%;
     margin: 10px;
     font-family: 'Sansita', sans-serif;
@@ -109,12 +109,12 @@ form input[type="password"] {
 }
 
 form input[type="text"] {
-    top: 40%;
+    top: 37%;
     left: 50%;
 }
 
 form input[type="password"] {
-    top: 47%;
+    top: 44%;
     left: 50%;
     font-size: 13px;
 }
@@ -123,9 +123,9 @@ form input[type="password"] {
     color: #E1C3FF; 
 }
 
-a {
+.forget-password {
     position: absolute;
-    top: 55%;
+    top: 51.5%;
     left: 65%;
     color: #E1C3FF;
     font-size: 14.5px;
@@ -133,7 +133,7 @@ a {
     font-family: "Franklin Gothic";
 }
 
-a:hover {
+.forget-password:hover {
     color: #8F5BBD;
 }
 
@@ -142,7 +142,7 @@ input[type="checkbox"] {
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px;
-    top: 54.6%;
+    top: 51%;
     left: 50.5%;
     appearance: none;
     width: 18px;
@@ -169,13 +169,13 @@ input[type="checkbox"]:checked::after {
 label[for="lembrar"] {
     position: absolute;
     font-family: "Franklin Gothic";
-    top: 55%;
+    top: 51.5%;
     left: 52%;
     color: #E1C3FF;
     font-size: 14.5px; 
 }
 
-form submit {
+form button {
     width: 21%;
     margin: 10px;
     padding: 10px;
@@ -183,7 +183,7 @@ form submit {
     border: solid 1px #cccccc;
     border-radius: 12px;
     position: absolute;
-    top: 58%;
+    top: 55%;
     left: 50.2%;
     height: 45px;
     margin-bottom: 10px;
@@ -194,18 +194,19 @@ form submit {
     cursor: pointer;
 }
 
-form submit:hover {
+form button:hover {
     background-color: #7d37bb;
 }
 
 /* Divisor de login */
 .login-divider {
     position: absolute;
-    top: 66%;
+    top: 64%;
     left: 50.8%;
     color: #E1C3FF;
     width: 21%;
     text-align: center;
+    font-family: "Franklin Gothic";
 }
 
 .login-divider div {
@@ -234,6 +235,59 @@ form submit:hover {
     margin-left: 10px;
 }
 
+.google-login {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.google-login button {
+    width: 21%;
+    margin:10px;
+    padding: 10px;
+    font-family: "Franklin Gothic", sans-serif;
+    border: solid 1px #cccccc;
+    border-radius: 12px;
+    position: absolute;
+    top: 68%;
+    left: 50.2%;
+    height: 45px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #8F5BBD;
+    text-align: center;
+    color: #E1C3FF;
+    cursor: pointer;
+    background-image: url("../images/google.svg"); 
+    background-repeat: no-repeat;
+    background-position: 33% center;
+    background-size: 20px;
+    padding-left: 35px;
+}
+
+.google-login button:hover {
+    background-color: #7d37bb;
+}
+
+.login-subscribe {
+    position: absolute;
+    top: 76%;
+    left: 55.2%;
+    color: #E1C3FF;
+    font-size: 14.5px;
+    font-family: "Franklin Gothic";
+    white-space: nowrap;
+}
+
+.login-subscribe a {
+    color: #8F5BBD; 
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.login-subscribe a:hover {
+    color: #5E3A9C; 
+}
+
 /* Botão de trocar background */
 .bg-day {
     background-image: url("../images/bg-day.png") !important;
@@ -256,3 +310,4 @@ img {
     width: 62px;
     height: auto; 
 }
+
