@@ -13,5 +13,13 @@
   <pre><code>git clone git@github.com:ThaliLaskaski/Projeto-Pagina-de-login.git</code></pre>
   <p>Depois de clonar o repositório, você pode abrir o arquivo <code>index.html</code> em seu navegador web para visualizar a página de login.</p>
 
+<h2>Interface da Página Inicial</h2>
+  <p>Abaixo está a imagem representando a interface da página inicial do projeto de login:</p>
+  <img src="../projeto login/public/images/interface principal - black.png" alt="Interface Página Inicial" width="500">
+
+<h2>Segunda Versão da Página</h2>
+  <p>Aqui está a segunda versão da página, onde ao apertar o botão de trocar o background, o fundo escuro é substituído pelo fundo claro:</p>
+  <img src="../projeto login/public/images/interface principal - white.png" alt="Interface Página Versão Claro" width="500">
+
 <h2>Contribuindo</h2>
-  <p>Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue neste repositório ou enviar um pull request com suas alterações.</p
+  <p>Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue neste repositório ou enviar um pull request com suas alterações.</p>
