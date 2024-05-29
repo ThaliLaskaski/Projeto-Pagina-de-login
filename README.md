@@ -11,7 +11,7 @@
 <h2>Como Utilizar</h2>
 <p>Para utilizar este projeto, basta clonar este repositório em seu ambiente de desenvolvimento local:</p>
 <pre><code>git clone git@github.com:ThaliLaskaski/Projeto-Pagina-de-login.git</code></pre>
-<p>Depois de clonar o repositório, você pode abrir o arquivo <code>index.html</code> em seu navegador web para visualizar a página de login.</p>
+<p>Depois de clonar o repositório, você pode abrir o arquivo <code>index.html</code> em seu navegador web para visualizar a página de login, ou pode acessa-lo através do GitHub Pages neste link: <a href="https://thalilaskaski.github.io/Projeto-Pagina-de-login/">Projeto Página de Login</a></p>
 
 <h2>Interface da Página Inicial</h2>
 <p>Abaixo está a imagem representando a interface da página inicial do projeto de login:</p>
